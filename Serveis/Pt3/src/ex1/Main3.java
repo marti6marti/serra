@@ -1,6 +1,8 @@
 package ex1;
 
-public class Main3 {
+public class
+
+Main3 {
     public static void main(String[] args) throws InterruptedException {
         Thread t = new Thread(new ProvaEstats());
         System.out.println("Estat inicial: " + t.getState());
