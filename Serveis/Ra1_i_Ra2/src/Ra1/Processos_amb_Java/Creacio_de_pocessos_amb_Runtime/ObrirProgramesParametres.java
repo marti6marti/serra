@@ -6,8 +6,8 @@ public class ObrirProgramesParametres {
     public static void main(String[] args) {
         try {
             // Obrir Chrome amb una pàgina web específica
-            Process process1 = Runtime.getRuntime().exec("chrome https://www.google.com");  // Windows
-            // Process process1 = Runtime.getRuntime().exec("google-chrome https://www.google.com");  // Linux
+            ProcessBuilder chrome = new ProcessBuilder( "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "https://gmail.com");
+            chrome.start();
 
             System.out.println("S'ha obert Chrome amb Google");
 

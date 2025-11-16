@@ -16,7 +16,9 @@ public class ObrirProgrames {
             System.out.println("S'ha obert la calculadora");
 
             // Obrir navegador Chrome
-            Process process3 = Runtime.getRuntime().exec("chrome");  // Windows
+            ProcessBuilder pb = new ProcessBuilder( "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe");
+            pb.start();
+
             // Process process3 = Runtime.getRuntime().exec("google-chrome");  // Linux
             System.out.println("S'ha obert el Chrome");
 

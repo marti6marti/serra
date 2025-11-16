@@ -14,10 +14,12 @@ public class Main3_if {
 
             if (linia.equals("BYE")) {
                 System.out.println("Finalitzant correctament...");
-                System.exit(0);  // Finalització correcta
+                // Finalització correcta
+                System.exit(0);
             } else if (linia.equals("ERROR")) {
                 System.out.println("Finalitzant amb error...");
-                System.exit(200);  // Finalització amb codi d'error personalitzat
+                // Finalització amb codi d'error personalitzat
+                System.exit(200);
             } else {
                 System.out.println("Has escrit: " + linia);
             }
