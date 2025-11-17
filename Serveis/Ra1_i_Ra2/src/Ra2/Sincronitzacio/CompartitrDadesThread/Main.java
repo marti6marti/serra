@@ -43,7 +43,6 @@ public class Main {
         System.out.println("▶️  Iniciant els bevedors...\n");
         tBevedor1.start();
         tBevedor2.start();
-
         // 8. ESPEREM
         tBevedor1.join();
         tBevedor2.join();
