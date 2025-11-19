@@ -9,7 +9,7 @@ public class ProcesEditorText {
 
         ProcessBuilder processNotepad = new ProcessBuilder("notepad.exe"); //crear procés
 
-        File directoriTreball = new File("C:\\Users\\PeP\\Desktop\\serra\\Serveis"); //assignar direc on volem el procés
+        File directoriTreball = new File("C:\\Users\\marti\\Documents\\serra\\Serveis"); //assignar direc on volem el procés
         processNotepad.directory(directoriTreball);
 
         Process notePadProcess = processNotepad.start(); //iniciar procés

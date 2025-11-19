@@ -5,7 +5,7 @@ import java.io.IOException;
 public class VariesPantallesGoogle {
     public static void main(String[] args) throws IOException, InterruptedException {
 
-        ProcessBuilder processChrome = new ProcessBuilder( "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "https://gmail.com");
+        ProcessBuilder processChrome = new ProcessBuilder( "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", "https://gmail.com");
 
         for (int i = 0; i < 2; i++) {
             Process processGmail = processChrome.start();
